@@ -1,0 +1,11 @@
+document.getElementById(&quot;ibbjs&quot;).addEventListener(&quot;load&quot;, function () {
+    PF.obj.devices = window.devices;
+    PF.fn.window_to_device = window.window_to_device;
+    PF.obj.config.base_url=&quot;https://www.tutor26.com/&quot;;
+    PF.obj.config.json_api=&quot;https://imgbb.com/json&quot;;
+    PF.obj.config.listing.items_per_page=&quot;32&quot;;
+    PF.obj.config.auth_token=&quot;c825e3f152ea25a437e74788f64ec3bfc0203b26&quot;;
+    PF.obj.l10n=[];
+    CHV.obj.embed_tpl={&quot;&quot;:{&quot;label&quot;:&quot;Links&quot;,&quot;options&quot;:{&quot;viewer-links&quot;:{&quot;label&quot;:&quot;Viewer links&quot;,&quot;template&quot;:&quot;https://www.tutor26.com/&quot;,&quot;size&quot;:&quot;viewer&quot;}}},&quot;html-codes&quot;:{&quot;label&quot;:&quot;HTML Codes&quot;,&quot;options&quot;:{&quot;html-embed-medium&quot;:{&quot;label&quot;:&quot;HTML full linked&quot;,&quot;template&quot;:&quot;&lt;a =\&quot;https://www.tutor26.com/\&quot;&gt;&lt;img src=\&quot;%MEDIUM_URL%\&quot; alt=\&quot;%MEDIUM_NAME%\&quot; border=\&quot;0\&quot;&gt;&lt;\/a&gt;&quot;,&quot;size&quot;:&quot;large&quot;},&quot;html-embed-thumbnail&quot;:{&quot;label&quot;:&quot;HTML thumbnail linked&quot;,&quot;template&quot;:&quot;&lt;a =\&quot;https://www.tutor26.com/\&quot;&gt;&lt;img src=\&quot;%THUMB_URL%\&quot; alt=\&quot;%THUMB_NAME%\&quot; border=\&quot;0\&quot;&gt;&lt;\/a&gt;&quot;,&quot;size&quot;:&quot;thumb&quot;}}},&quot;bbcodes&quot;:{&quot;label&quot;:&quot;BBCodes&quot;,&quot;options&quot;:{&quot;bbcode-embed-medium&quot;:{&quot;label&quot;:&quot;BBCode full linked&quot;,&quot;template&quot;:&quot;[url=https://www.tutor26.com/][img]%MEDIUM_URL%[\/img][\/]&quot;,&quot;size&quot;:&quot;medium&quot;},&quot;bbcode-embed-thumbnail&quot;:{&quot;label&quot;:&quot;BBCode thumbnail linked&quot;,&quot;template&quot;:&quot;[url=https://www.tutor26.com/][img]%THUMB_URL%[\/img][\/url]&quot;,&quot;size&quot;:&quot;thumb&quot;}}}};
+    CHV.obj.config={&quot;image&quot;:{&quot;max_filesize&quot;:32000000,&quot;load_max_filesize&quot;:8000000},&quot;upload&quot;:{&quot;image_types&quot;:[&quot;jpg&quot;,&quot;png&quot;,&quot;bmp&quot;,&quot;gif&quot;,&quot;tif&quot;,&quot;webp&quot;,&quot;heic&quot;,&quot;pdf&quot;,&quot;jpeg&quot;,&quot;tiff&quot;,&quot;heif&quot;]},&quot;listing&quot;:{&quot;viewer&quot;:true}};ibb();
+    });
